@@ -1,4 +1,5 @@
 import random
+import sys
 
 Trees = 100
 TreeEnergy = 10
@@ -18,4 +19,5 @@ while Trees < 1000:
   Seeds = 0
   print(Seeds)
   print(Trees)
-  
+
+sys.exit
