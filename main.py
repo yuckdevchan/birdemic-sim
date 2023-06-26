@@ -12,7 +12,7 @@ TreeMutation1 = 0
 
 
 while Trees < 1000:
-  Check1 = randint(0, 3)
+  Check1 = random.randint(0, 3)
   if Check1 == 2:
   TreeMutation1 = random.random(0, 0.2)
   TreeHardness -= TreeMutation1
