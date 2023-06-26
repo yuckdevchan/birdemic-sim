@@ -7,7 +7,7 @@ TreeHardness = 1
 TreeSpeed = TreeEnergy / TreeHardness
 Seeds = 0
 Seeds = Trees * TreeSpeed
-Check1 = randint(0, 3)
+Check1 = 0
 TreeMutation1 = 0
 
 
