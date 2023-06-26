@@ -7,6 +7,7 @@ TreeSpeed = TreeEnergy / TreeHardness
 Seeds = 0
 Seeds = Trees * TreeSpeed
 Check1 = randint(0,3)
+treeMutation1 = 0
 if Check1 == 2:
   treeMutation1 = random.random(0,0.01)
 
